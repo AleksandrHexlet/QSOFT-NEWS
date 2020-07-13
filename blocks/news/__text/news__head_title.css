@@ -1,0 +1,123 @@
+.news__head_title {
+display: flex;
+width: 800px;
+
+font-style: normal;
+font-weight: 900;
+font-size: 72px;
+line-height: 78px;
+color:black;   
+margin:auto;
+/* margin:0px 192px 48px 192px; */
+text-align: center;
+justify-content: center;
+}
+
+@media all and (min-width : 1024px) and (max-width : 1440px) {
+    .news__head_title {     
+
+        max-width: 80vw;
+        
+        font-style: normal;
+        font-weight: 900;
+        font-size: 72px;
+        line-height: 78px;
+        text-align: center;
+        margin:0 auto 48px;
+        color:black;
+
+    }
+}
+@media all and (min-width : 1024px) and (max-width : 1280px) {
+    .news__head_title {     
+
+        max-width: 80vw;
+        
+        font-style: normal;
+        font-weight: 900;
+        font-size: 72px;
+        line-height: 78px;
+        text-align: center;
+        margin:0 auto 48px;
+        color:black;
+        padding-top: 30px;
+
+    }
+}
+
+@media all and (min-width : 768px) and (max-width : 1023px){
+    .news__head_title {
+
+
+
+        max-width: 85.93vw;
+        margin:0 auto 24px;
+        display: flex;
+        flex-direction: column;
+        
+        font-style: normal;
+        font-weight: 900;
+        font-size: 65px;
+        line-height: 67px;
+        text-align: center;
+        
+        color:black;
+        
+    }
+}
+
+@media all and (min-width : 431px) and (max-width : 767px){
+    .news__head_title {
+   
+        max-width: 91.46vw;
+        margin:0 auto 16px;
+        
+        font-style: normal;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 35px;
+        text-align: center;
+        
+        color:black;
+        
+        }
+}
+@media all and (max-width : 380px){
+    .news__head_title {
+        max-width: 91.46vw;
+        margin:0 auto 16px;
+        
+        font-style: normal;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 35px;
+        text-align: center;
+        
+        color:black;
+
+    }
+}
+@media all and (min-width : 380px) and (max-width : 430px){
+    .news__head_title {
+   
+        max-width: 91.46vw;
+        margin:0 auto 16px;
+        
+        font-style: normal;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 35px;
+        text-align: center;
+        
+        color:black;
+        padding-top: 250px;
+
+        }
+}
+
+
+
+
+  
+
+  

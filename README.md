@@ -1,2 +1,1 @@
-# QSOFT-NEWS
-Test from QSOFT
+# Тестовое задание компании QSOFT

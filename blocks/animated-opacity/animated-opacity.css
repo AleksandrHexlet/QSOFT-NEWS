@@ -1,0 +1,10 @@
+.animated-opacity {
+    opacity:1;
+    transition: opacity .5s ease-in;
+    /* background-color: black; */
+}
+
+.animated-opacity:hover {
+    opacity: 0.2;
+    
+}

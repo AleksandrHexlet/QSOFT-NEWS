@@ -1,0 +1,52 @@
+@import url('../news/__comment/news__comment.css');
+@import url('../news/__container/news__container.css');
+@import url('../news/__image/news__image.css');
+@import url('../news/__text/news__title.css');
+@import url('../news/__text/news__subtitle.css');
+@import url('../news/__text/news__line.css');
+@import url('../news/__text/news__head_title.css');
+
+
+.news {
+width: 100vw;
+margin:0px auto 102px;
+
+}
+
+@media all and (min-width : 1024px) and (max-width : 1440px) {
+    .news  {     
+
+        max-width: 90.62%;
+        display: block;
+        margin: 0 auto 102px;
+
+    }
+}
+
+@media all and (min-width : 768px) and (max-width : 1023px){
+    .news {
+        max-width: 85.93%;
+        display: block;
+        margin: 0 auto 102px;
+    }
+}
+
+@media all and (min-width : 425px) and (max-width : 767px){
+    .news {
+   
+        max-width: 91.46%;
+        display: block;
+        margin: 0 auto 48px;
+        }
+}
+
+@media all and (max-width : 424px){
+    .news  {
+
+        max-width: 91.46%;
+        display: block;
+        margin: 0 auto 48px;
+    }
+} 
+
+

@@ -1,0 +1,6 @@
+.news__line {
+width: 100px;
+border-bottom: 5px solid red; /* Параметры линии */ 
+margin-bottom: 20px; /* Отступ слева */
+padding-bottom: 10px; /* Расстояние от линии до текста */ 
+}

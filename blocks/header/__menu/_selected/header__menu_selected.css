@@ -1,0 +1,12 @@
+.header__menu_selected {
+   text-decoration: none;
+   margin-right: 18px;
+}
+
+
+
+@media all and (max-width : 425px) {
+   .header__menu_selected {
+   margin-right: 16px;
+   }
+}

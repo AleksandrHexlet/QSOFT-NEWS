@@ -1,0 +1,46 @@
+.header__menu {
+display: flex;
+align-self: center;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 23px;
+text-align: right;
+text-decoration:none;
+color: white;
+margin: 0px;
+text-decoration: none;
+color: black;
+}
+
+
+@media all and (min-width : 1024px)and (max-width : 1440px) {
+    .header__menu {
+        font-size: 23px;
+    }
+}
+
+@media all and (min-width : 768px) and (max-width : 1024px){
+    .header__menu {
+        /* max-width: 30px; */
+        font-size: 23px;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media all and (min-width : 425px) and (max-width : 768px){
+    .header__menu {
+        font-size: 23px;
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media all and (max-width : 425px) {
+    .header__menu {
+        font-size: 18px;
+    }
+
+    }
+
+

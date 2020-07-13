@@ -1,0 +1,56 @@
+.cover__button {
+
+    display: inline-block;
+}
+
+
+@media all and (min-width : 1025px) and (max-width : 1440px) {
+    .cover__button {     
+         font-style: normal;
+
+
+     }
+ }
+ 
+ @media all and (min-width : 769px) and (max-width : 1024px){
+    .cover__button{
+         width: 45px;
+         margin-bottom: 102px;
+
+
+     }
+ }
+ 
+
+@media all and (min-width : 376px) and (max-width : 768px) {
+    .cover__button {
+        
+        color: #FFFFFF;
+
+
+    }
+
+
+    }
+
+
+
+
+
+@media all and (min-width : 321px) and (max-width : 375px){
+    .cover__button{
+
+    
+       font-style: normal;
+
+}
+    }
+
+
+@media all and (max-width : 320px){
+    .cover__button {
+   
+        font-style: normal;
+
+    }
+}
