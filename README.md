@@ -1,0 +1,2 @@
+# QSOFT-NEWS
+Test from QSOFT
